@@ -19,7 +19,7 @@ git clone https://github.com/sshazly/automatedLawnMower
 # Summary
 
 The following repository contains the completed tutorials for creating ROS packages and implementing nodes. Publisher and Subscriber are used to send messages to a node and read messages from that same node using listener.cpp and talker.cpp located in the ~/catkin_ws/src/beginner_tutorials/src/ directory.
-# C++ Robotic Motion Controller
+# ROS Automated Lawn Mower
 [![Build Status](https://travis-ci.org/sshazly/automatedLawnMower.svg?branch=master)](https://travis-ci.org/sshazly/automatedLawnMower)
 [![Coverage Status](https://coveralls.io/repos/github/sshazly/automatedLawnMower/badge.svg)](https://coveralls.io/github/sshazly/automatedLawnMower)
 ---
@@ -56,11 +56,6 @@ Once cloned, the implementation can be achieved by:
 
  	$ catkin_make
 
-3)  Opening five new terminals...
-
-On the first terminal:
-
- 	$ roscore
 
 
 OR 
